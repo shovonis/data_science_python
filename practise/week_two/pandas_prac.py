@@ -53,3 +53,4 @@ cricket_loving_countries = pd.Series(['Australia',
 all_countries = sports_series.append(cricket_loving_countries)
 print(sports_series) #Didnt changed the original list
 print(all_countries)
+print(all_countries.loc['Cricket'])
