@@ -30,3 +30,7 @@ print(df)  # The original copy doesn't change
 
 del df['Name']
 print(df)  # This deletes the column from df.
+
+# Adding new column
+df['Location'] = ['A', 'B', 'C']
+print(df)
