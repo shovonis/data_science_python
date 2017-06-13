@@ -81,4 +81,7 @@ df.set_index(['STNAME', 'CTYNAME'], inplace=True)
 # Printing first and second indexwise
 # print(df.loc['Alabama', 'Bibb County'])
 
-print(df.loc[[('Alabama', 'Bibb County'), ('Michigan', 'Wayne County')]])
+print(df.loc[[('Alabama', 'Bibb County'),
+              ('Michigan', 'Wayne County')]])
+
+
